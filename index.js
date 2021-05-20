@@ -6,7 +6,7 @@ let date ="Monday 2019-03-18";
 let time="10:05:34 AM";
 //let astronautCount = 7;
 const input=require('readline-sync');
-let astronautCount = Number(readline-sync.question("How many astronauts are part of the mission? "));
+let astronautCount = Number(input.question("How many astronauts are part of the mission? "));
 
 let astronautStatus = "ready";
 let averageAstronautMassKg ="80.7";
